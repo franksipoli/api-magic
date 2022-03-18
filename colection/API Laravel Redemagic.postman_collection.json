@@ -71,12 +71,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/vagas",
+					"raw": "{{BACKEND_URL}}/vagas",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"vagas"
 					]
 				}
@@ -101,12 +100,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"raw": "{{BACKEND_URL}}/redemagic",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"redemagic"
 					]
 				}
@@ -122,12 +120,11 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"raw": "{{BACKEND_URL}}/redemagic",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"redemagic"
 					]
 				}
@@ -143,14 +140,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/vagas/4",
+					"raw": "{{BACKEND_URL}}/vagas",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
-						"vagas",
-						"4"
+						"vagas"
 					]
 				}
 			},
@@ -174,12 +169,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/redemagic/3",
+					"raw": "{{BACKEND_URL}}/redemagic/3",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"redemagic",
 						"3"
 					]
@@ -233,12 +227,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/redemagic/3",
+					"raw": "{{BACKEND_URL}}/redemagic/3",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"redemagic",
 						"3"
 					]
@@ -261,12 +254,11 @@
 					}
 				},
 				"url": {
-					"raw": "{{BACKEND_URL}}/api/vagas/4",
+					"raw": "{{BACKEND_URL}}/vagas/4",
 					"host": [
 						"{{BACKEND_URL}}"
 					],
 					"path": [
-						"api",
 						"vagas",
 						"4"
 					]
