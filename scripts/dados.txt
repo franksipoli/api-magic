@@ -1,0 +1,60 @@
+Vagas
+{
+	"title":"DevOps AWS",
+	"description":"Expert",
+	"local":"Salvador",
+	"remote":"yes",
+	"redemagic_id":2
+}
+
+
+{
+	"title":"PHP Developer \/ Laravel Expert",
+	"description":"Laravel Expert",
+	"local":"Curitiba",
+	"remote":"yes",
+	"redemagic_id":2
+}
+
+
+{
+    "title": "Java Developer / SpringBoth",
+    "description": "Senior", 
+    "local": "Maringa", 
+    "remote": "yes", 
+    "redemagic_id": "1"
+}
+
+
+Redemagic
+    {
+        "id": 1,
+        "name": "Armored Services",
+        "email": "frank@sipoli.eti.br",
+        "website": "www.sipoli.eti.br",
+        "logo": "1",
+        "created_at": null,
+        "updated_at": null,
+        "deleted_at": null
+    },
+    {
+        "id": 2,
+        "name": "RedeMagic",
+        "email": "alemao@redemagic.com",
+        "website": "wwww.redemagic.com",
+        "logo": "2",
+        "created_at": null,
+        "updated_at": null,
+        "deleted_at": null
+    },
+    {
+        "id": 3,
+        "name": "Novo nome Intersena",
+        "email": "email@email.com",
+        "website": "www.intersena.com",
+        "logo": "3",
+        "created_at": "2022-03-17 19:32:53",
+        "updated_at": "2022-03-17 19:53:34",
+        "deleted_at": null
+    }
+]
