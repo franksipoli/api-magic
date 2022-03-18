@@ -21,7 +21,7 @@ mysqldump: Error: 'Access denied; you need (at least one of) the PROCESS privile
 -- Current Database: `laravel`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `laravel` /*!40100 DEFAULT CHARACTER SET latin1 */;
+-- CREATE DATABASE /*!32312 IF NOT EXISTS*/ `laravel` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
 USE `laravel`;
 
