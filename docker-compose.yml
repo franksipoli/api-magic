@@ -19,7 +19,7 @@ services:
     image: mysql:5.7
     container_name: mysql-db
     volumes:
-      - ../run/var:/var/lib/mysql
+      - ./run/var:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=bl4bl4@l3mbr4
       - MYSQL_DATABASE=${DB_DATABASE}

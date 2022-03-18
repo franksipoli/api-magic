@@ -1,0 +1,278 @@
+{
+	"info": {
+		"_postman_id": "ab6910b1-a246-493a-a788-a5d96f2d43d4",
+		"name": "API Laravel Redemagic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RedeMagic",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Oi Teta\",\n    \"email\": \"teta@sipoli.eti.br\",\n    \"website\": \"www.teta.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criando vagas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Apagar Depois\",\n    \"description\": \"Senior\", \n    \"local\": \"Maringa\", \n    \"remote\": \"yes\", \n    \"redemagic_id\": \"3\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/vagas",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"vagas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criando Redemagic",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Oi Teta\",\n    \"email\": \"teta@sipoli.eti.br\",\n    \"website\": \"www.teta.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Redemagic",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Vagas",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/vagas/4",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"vagas",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterando Redemagic",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Novo nome Intersena\",\n    \"email\": \"email@email.com\",\n    \"website\": \"www.intersena.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic/3",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterando vagas",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"DevOps AWS\",\n    \"description\": \"Expert\", \n    \"local\": \"Salvador\", \n    \"remote\": \"yes\", \n    \"redemagic_id\": \"2\"\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/vagas/1",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"vagas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Apagando Redemagic",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/redemagic/3",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"redemagic",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Apagando vagas",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BACKEND_URL}}/api/vagas/4",
+					"host": [
+						"{{BACKEND_URL}}"
+					],
+					"path": [
+						"api",
+						"vagas",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
